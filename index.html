@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vraj Darji</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2503d4adf9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h6>V<span>raj.</span></h6>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Vraj</span> Darji<br>From Ahmedabad</h1>
+                <p>B-Tech (IT) Student</p>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img2.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A B.Tech Information Technology student From
+                        Indus University with entry-level experience
+                        looking to working in a growth-oriented
+                        organization which offers me challenging
+                        opportunities to enhance my profession and
+                        technical knowledge.<br><br>A front-end developer with entry-level experience specializing in web development, UI design, HTML, and CSS. Adept at identifying opportunities to enhance front-end design and improve the UX.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('about more')">About more</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="about more">
+                        <ul>
+                            <li><span>Date of Birth</span><br>21/11/2002</li>
+                            <li><span>Gender</span><br>Male</li>
+                            <li><span>Marital Status</span><br>Unmarried</li>
+                            <li><span>Father Name</span><br>Jagdishbhai</li>
+                            <li><span>Hobbies</span><br>Developing,Designing,Traveling</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>1st to 30th June 2023</span><br>Internship at<br>SPARKS TO IDEA's,Ahmedabad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SSC passed from Bhagwati Vidhyalaya</li>
+                            <li><span>2020</span><br>HSC passed from Bhagwati Vidhyalaya</li>
+                            <li><span>2024</span><br>B-Tech will complate from Indus University</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>I love working with HTML and know that I'd like to continue improving these skills while finding creative ways to apply them.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>I'm a passionate web developer with a strong foundation in CSS.My journey into the world of web development began with a fascination for turning design concepts into interactive and visually appealing digital experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>I am a dedicated and creative web developer with a deep passion for JavaScript. My journey into the world of web development was ignited by the power and versatility of this dynamic programming language.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="cafe.jpg">
+                    <div class="layer">
+                        <h3>Cafe Website</h3>
+                        <p>At [Cafe Website Project], we're dedicated to crafting a virtual haven for coffee enthusiasts, foodies, and cafe lovers alike. Our mission is to bring the cozy ambiance and delicious flavors of your favorite cafe right to your screen.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="amazon.jpg">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Amazon clone project is typically a part of a user's profile where they can manage their personal information and preferences.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="port.jpg">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Your portfolio website is your digital showcase, presenting your work and professional identity to the world with elegance and precision.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vrajdarji2002@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9998342593</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Vraj darji (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Vraj.</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzEUH0X18w45cJ2445vg0xLFRRjYjvHeZIJ_bJBG1aYTMhzZKxTB0rh-zgclfPidi6n/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
